@@ -1,0 +1,39 @@
+<project>
+    <extend>${base.project.dir}/base-dependencies.xml</extend>
+    <name>idegaWeb Setup</name>
+    <artifactId>com.idega.setup</artifactId>
+    <currentVersion>0.5-SNAPSHOT</currentVersion>
+    <inceptionYear>2004</inceptionYear>
+    <shortDescription>Setup module to setup idegaWeb</shortDescription>
+    <issueTrackingUrl>http://issues.idega.is</issueTrackingUrl>
+    <versions/>
+    <branches/>
+    <developers>
+        <developer>
+            <id>tryggvil</id>
+            <name>Tryggvi Larusson</name>
+            <email>tryggvi@idega.is</email>
+            <organization>idega software</organization>
+            <roles/>
+        </developer>
+	  </developers>
+    <dependencies>
+        <dependency>
+            <groupId>bundles</groupId>
+            <artifactId>com.idega.core</artifactId>
+            <!--<version>1.9</version>-->
+            <version>SNAPSHOT</version>
+            <type>jar</type>
+            <url>http://www.idega.com/</url>
+            <properties><eclipse.dependency>true</eclipse.dependency></properties>
+        </dependency>
+         <dependency>
+            <groupId>bundles</groupId>
+            <artifactId>com.idega.webface</artifactId>
+            <version>SNAPSHOT</version>
+            <type>jar</type>
+            <url>http://www.idega.com/</url>
+            <properties><eclipse.dependency>true</eclipse.dependency></properties>
+        </dependency>
+     </dependencies>
+</project>
