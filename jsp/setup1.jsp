@@ -9,7 +9,7 @@
     <f:view>
     		<wf:workspace_page id="setup1">
     			<h:form>
-				<h:outputText value="Setup Page 1"/>
+				<h:outputText value="The Application has no database configured. Please configure db.properties"/>
 			</h:form>
 		</wf:workspace_page>
     </f:view>
