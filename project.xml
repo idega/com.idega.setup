@@ -4,7 +4,7 @@
   <extend>${base.project.dir}/base-dependencies.xml</extend>
   <name>idegaWeb Setup</name>
   <artifactId>com.idega.setup</artifactId>
-  <currentVersion>0.6.0</currentVersion>
+  <currentVersion>0.7.0-SNAPSHOT</currentVersion>
   <inceptionYear>2004</inceptionYear>
   <shortDescription>Setup module to setup idegaWeb</shortDescription>
   <issueTrackingUrl>http://issues.idega.is</issueTrackingUrl>
@@ -34,8 +34,8 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.core</artifactId>
-      <version>3.0.0</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>3.0.0</version-->
+      <version>SNAPSHOT</version>
 
       <type>jar</type>
       <url>http://www.idega.com/</url>
@@ -46,8 +46,8 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.webface</artifactId>
-      <version>0.9.0</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>0.9.0</version-->
+      <version>SNAPSHOT</version>
 
       <type>jar</type>
       <url>http://www.idega.com/</url>
