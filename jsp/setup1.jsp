@@ -3,14 +3,14 @@
 	xmlns:f="http://java.sun.com/jsf/core" 	
 	xmlns:h="http://java.sun.com/jsf/html" 	
 	xmlns:jsp="http://java.sun.com/JSP/Page" 	
-	xmlns:wf="http://xmlns.idega.com/com.idega.webface" 
+	xmlns:iwc="http://xmlns.idega.com/com.idega.core" 
 >
     <jsp:directive.page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8"/>
     <f:view>
-    		<wf:workspace_page id="setup1">
+    		<iwc:page id="setup1">
     			<h:form>
 				<h:outputText value="The Application has no database configured. Please configure db.properties"/>
 			</h:form>
-		</wf:workspace_page>
+		</iwc:page>
     </f:view>
 </jsp:root>
