@@ -9,7 +9,7 @@
     <f:view>
     		<iwc:page id="setup1">
     			<h:form>
-				<h:outputText value="The Application has no database configured. Please configure db.properties"/>
+				<h:outputText value="The Application has no database configured. Please set up a JNDI DataSource undir jdbc/DefaultDS configure db.properties"/>
 			</h:form>
 		</iwc:page>
     </f:view>
