@@ -6,6 +6,7 @@
   <artifactId>com.idega.setup</artifactId>
   <currentVersion>1.0</currentVersion>
   <!--currentVersion>1.0.1-SNAPSHOT</currentVersion-->
+
   <inceptionYear>2004</inceptionYear>
   <shortDescription>Setup module to setup idegaWeb</shortDescription>
   <issueTrackingUrl>http://issues.idega.is</issueTrackingUrl>
@@ -25,10 +26,15 @@
       <name>0.6.1</name>
       <tag>SETUP_0_6_1</tag>
     </version>
-        <version>
+    <version>
       <id>0.6.2</id>
       <name>0.6.2</name>
       <tag>SETUP_0_6_2</tag>
+    </version>
+    <version>
+      <id>1.0</id>
+      <name>1.0</name>
+      <tag>SETUP_1_0</tag>
     </version>
   </versions>
   <branches/>
@@ -45,7 +51,10 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.core</artifactId>
-      <!--HELPER--><version>3.0.6</version><!--HELPER-->
+      <!--HELPER-->
+
+      <version>3.0.6</version>
+      <!--HELPER-->
       <!--HELPERversion>SNAPSHOT</versionHELPER-->
 
       <type>jar</type>
@@ -57,7 +66,10 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.webface</artifactId>
-      <!--HELPER--><version>1.0</version><!--HELPER-->
+      <!--HELPER-->
+
+      <version>1.0</version>
+      <!--HELPER-->
       <!--HELPERversion>SNAPSHOT</versionHELPER-->
 
       <type>jar</type>
